@@ -1,10 +1,46 @@
+*, a
+    box-sizing: border-box
+a:hover
+    color: $LinkColorHover
 .header
     justify-content: space-between
+    margin-top: 6rem
+    &__nav
+        padding: 0
+        display: flex
+        align-items: center
     &__logo
-        font-family: Chronicle Display
+        font-family: "Chronicle Display"
         font-size: 3.2rem
         color: $white
-        // background-image: url(img\HG.png)
-        // background-color: #fff
+    &__link
+        font-family: 'Gilroy'
+        font-size: 1.8rem
+        font-style: bold
+        color: $white
+        margin-right: 4rem
+    // &__nav:last-child
+    //     margin-right: 0rem
+.account
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0
+    &__text
+        font-family: 'Gilroy'
+        font-size: 1.7rem
+        color: $white
+    &:hover
+        border: 2px solid $LinkColorHover
+        border-radius: 1rem
+        margin: 0.5rem 0
+ 
+        
+
+        
+       
+
+
+
 
 
