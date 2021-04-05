@@ -136,6 +136,78 @@ a:hover {
   border: 2px solid #ffff;
 }
 
+.block2 {
+  margin-top: 84.6rem;
+}
+
+.block2__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.block2__number {
+  font-family: Gilroy;
+  font-size: 24rem;
+  font-style: normal;
+  position: absolute;
+  color: #fff;
+  opacity: 0.1;
+  top: 3.8rem;
+  z-index: -1;
+}
+
+.block2__text {
+  position: absolute;
+  left: 15rem;
+}
+
+.block2__subtitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.7rem;
+}
+
+.block2__yelowLine {
+  width: 7.2rem;
+  height: 0.2rem;
+  background-color: #fcba07;
+  margin-right: 2.4rem;
+}
+
+.block2__span {
+  font-family: Gilroy;
+  font-size: 1.8rem;
+  font-style: normal;
+  color: #fcba07;
+}
+
+.block2__h2 {
+  font-family: Chronicle Display;
+  font-size: 6.4rem;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+.block2__p {
+  font-family: Gilroy;
+  font-size: 1.8rem;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+.block2__link {
+  font-family: Gilroy;
+  font-size: 1.8rem;
+  color: #fcba07;
+}
+
+.block2__linkSpan {
+  display: inline-block;
+  margin-right: 1.6rem;
+}
+
 @font-face {
   font-family: 'Gilroy';
   src: url("Gilroy-Bold.eot");
